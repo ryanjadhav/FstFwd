@@ -1,0 +1,44 @@
+.service_button, .service_result {
+    display: inline-block;
+    clear: both;
+}
+
+.service_button {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+div.song {
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    width: 60%;
+}
+
+#original_url_button {
+    background-color: red;
+}
+
+#fstfwd_id_button {
+    background-color: blue;
+}
+
+#spotify_button {
+    background-color: green;
+}
+
+#rdio_button {
+    background-color: orange;
+}
+
+#grooveshark_button {
+    background-color: purple;
+}
+
+#last_fm_button {
+    background-color: yellow;
+} 
+
+#youtube_button {
+    background-color: SpringGreen;
+}

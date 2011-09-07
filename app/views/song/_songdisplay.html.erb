@@ -1,0 +1,64 @@
+<div class="song">
+    <div>
+        <div id="original_url_button" class="service_button">
+            <div class="button_title">Original URL</div>
+        </div>
+        <div class="service_result">
+            <div class="results_link original_url"><%= song.orig_url -%></div>
+        </div>
+    </div>
+
+    <div>
+        <div id="fstfwd_id_button" class="service_button">
+            <div class="button_title">FstFwd ID</div>
+        </div>
+        <div class="service_result">
+            <div class="results_link fstfwd_url"><%= song.fstfwd_id -%></div>
+        </div>
+    </div>
+    
+    <div>
+        <div id="spotify_button" class='service_button'>
+            <div class='button_title'>Spotify</div>
+        </div>
+        <div class='service_result'>
+            <div class='results_link spotify_url'><%= song.spotify_id -%></div>
+        </div>
+    </div>
+
+    <div>
+        <div id="rdio_button" class='service_button'>
+            <div class='button_title'>Rdio</div>
+        </div>
+        <div class='service_result'>
+            <div class='results_link rdio_url'><%= song.rdio_id -%></div>
+        </div>
+    </div>
+
+    <div>
+        <div id='grooveshark_button' class='service_button'>
+            <div class='button_title'>Grooveshark</div>
+        </div>
+        <div class='service_result'>
+            <div class='results_link grooveshark_url'><%= song.grooveshark_id -%></div>
+        </div>
+    </div>
+
+    <div>
+        <div id="last_fm_button" class='service_button'>
+            <div class='button_title'>Last.FM</div>
+        </div>
+        <div class='service_result'>
+            <div class='results_link last_fm_url'><%= song.lastfm_id -%></div>
+        </div>
+    </div>
+
+    <div>
+        <div id="youtube_button" class='service_button'>
+            <div class='button_title'>Youtube</div>
+        </div>
+        <div class='service_result'>
+            <div class='results_link youtube_url'><%= song.youtube_id -%></div>
+        </div>
+    </div>
+</div>
