@@ -8,6 +8,7 @@ class Song
   key :youtube_id, String
   key :spotify_id, String
   key :lastfm_id, String
+  key :track_info, String
 
   after_validation :calculate_services
 
@@ -15,6 +16,7 @@ class Song
 
   def calculate_services
     self.fstfwd_id = calculate_fstfwd_id
+    self.track_info = lookup_track_info  
     self.grooveshark_id = calculate_grooveshark_id
     self.rdio_id = calculate_rdio_id
     self.youtube_id = calculate_youtube_id
@@ -25,6 +27,10 @@ class Song
   def calculate_fstfwd_id
     # Internal id for fstfwd
     self._id
+  end
+  
+  def lookup_track_info
+  	'track info'
   end
 
   def calculate_grooveshark_id

@@ -1,9 +1,0 @@
-<h3>All songs</h3>
-<div>
-<% @songs.each do |song| %>
-    <%= render :partial => "songdisplay", :locals => { :song => song } %>
-    <br />
-<% end %>
-</div>
-
-<p><%= link_to 'Create', {:controller => 'song', :action => 'new' } %></p>

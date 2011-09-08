@@ -274,3 +274,237 @@ Rendered song/_songdisplay.html.erb (0.8ms)
 Rendered song/_songdisplay.html.erb (0.7ms)
 Rendered song/index.html.erb within layouts/application (6.0ms)
 Completed 200 OK in 56ms (Views: 10.2ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/ryan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-07 16:30:14 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.erb (30.0ms)
+Rendered song/index.html.erb within layouts/application (33.5ms)
+Completed 500 Internal Server Error in 935ms
+
+ActionView::Template::Error (undefined method `track_info' for #<Song:0x007fdf1b409820>):
+    22:             <div class="button_title">Track Info</div>
+    23:         </div>
+    24:         <div class="service_result">
+    25:             <div class="results_link fstfwd_url"><%= song.track_info -%></div>
+    26:         </div>
+    27:     </div>
+    28:     
+  app/views/song/_songdisplay.html.erb:25:in `_app_views_song__songdisplay_html_erb__2329886855575261229_70298105629120__425026517316353875'
+  app/views/song/index.html.erb:4:in `block in _app_views_song_index_html_erb___1658821130507330427_70298105643120__144591141121448598'
+  app/views/song/index.html.erb:3:in `each'
+  app/views/song/index.html.erb:3:in `_app_views_song_index_html_erb___1658821130507330427_70298105643120__144591141121448598'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.8ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-07 16:30:16 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.erb (2.0ms)
+Rendered song/index.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (undefined method `track_info' for #<Song:0x007fdf19822990>):
+    22:             <div class="button_title">Track Info</div>
+    23:         </div>
+    24:         <div class="service_result">
+    25:             <div class="results_link fstfwd_url"><%= song.track_info -%></div>
+    26:         </div>
+    27:     </div>
+    28:     
+  app/views/song/_songdisplay.html.erb:25:in `_app_views_song__songdisplay_html_erb__2329886855575261229_70298097232800__425026517316353875'
+  app/views/song/index.html.erb:4:in `block in _app_views_song_index_html_erb___1658821130507330427_70298097207800__144591141121448598'
+  app/views/song/index.html.erb:3:in `each'
+  app/views/song/index.html.erb:3:in `_app_views_song_index_html_erb___1658821130507330427_70298097207800__144591141121448598'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-07 16:30:16 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.erb (1.2ms)
+Rendered song/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (undefined method `track_info' for #<Song:0x007fdf1b3f3638>):
+    22:             <div class="button_title">Track Info</div>
+    23:         </div>
+    24:         <div class="service_result">
+    25:             <div class="results_link fstfwd_url"><%= song.track_info -%></div>
+    26:         </div>
+    27:     </div>
+    28:     
+  app/views/song/_songdisplay.html.erb:25:in `_app_views_song__songdisplay_html_erb__2329886855575261229_70298105701140__425026517316353875'
+  app/views/song/index.html.erb:4:in `block in _app_views_song_index_html_erb___1658821130507330427_70298105733240__144591141121448598'
+  app/views/song/index.html.erb:3:in `each'
+  app/views/song/index.html.erb:3:in `_app_views_song_index_html_erb___1658821130507330427_70298105733240__144591141121448598'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-07 16:31:52 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.erb (1.0ms)
+Rendered song/_songdisplay.html.erb (0.9ms)
+Rendered song/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 30ms (Views: 15.9ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-07 16:32:31 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.erb (1.2ms)
+Rendered song/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (undefined method `track_info' for #<Song:0x007fdf1b12f140>):
+    22:             <div class='button_title'>Track Info</div>
+    23:         </div>
+    24:         <div class='service_result'>
+    25:             <div class='results_link spotify_url'><%= song.track_info -%></div>
+    26:         </div>
+    27:     </div>
+    28:            
+  app/views/song/_songdisplay.html.erb:25:in `_app_views_song__songdisplay_html_erb__2329886855575261229_70298104251660__425026517316353875'
+  app/views/song/index.html.erb:4:in `block in _app_views_song_index_html_erb___1658821130507330427_70298104301100__144591141121448598'
+  app/views/song/index.html.erb:3:in `each'
+  app/views/song/index.html.erb:3:in `_app_views_song_index_html_erb___1658821130507330427_70298104301100__144591141121448598'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-07 16:33:46 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.erb (0.8ms)
+Rendered song/_songdisplay.html.erb (27.0ms)
+Rendered song/index.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 50ms (Views: 36.6ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-07 16:33:51 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 19ms (Views: 6.7ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-07 16:33:58 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"im silly"}}
+Redirected to http://localhost:3000/song
+Completed 302 Found in 13ms
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-07 16:33:58 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.erb (0.9ms)
+Rendered song/_songdisplay.html.erb (0.9ms)
+Rendered song/_songdisplay.html.erb (0.8ms)
+Rendered song/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 37ms (Views: 12.1ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-07 16:35:01 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.erb (0.8ms)
+Rendered song/_songdisplay.html.erb (0.7ms)
+Rendered song/_songdisplay.html.erb (0.7ms)
+Rendered song/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 25ms (Views: 11.1ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 16:35:12 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.erb (1.0ms)
+Rendered song/_songdisplay.html.erb (0.8ms)
+Rendered song/_songdisplay.html.erb (0.8ms)
+Rendered song/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 27ms (Views: 12.9ms)
+
+
+Started GET "/song/1" for 127.0.0.1 at 2011-09-07 16:35:12 -0700
+
+AbstractController::ActionNotFound (The action '1' could not be found for SongController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 16:35:15 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.erb (0.8ms)
+Rendered song/_songdisplay.html.erb (0.7ms)
+Rendered song/_songdisplay.html.erb (0.7ms)
+Rendered song/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 26ms (Views: 11.2ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 17:00:49 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.erb (1.6ms)
+Rendered song/_songdisplay.html.erb (0.8ms)
+Rendered song/_songdisplay.html.erb (0.7ms)
+Rendered song/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 80ms (Views: 66.3ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 17:01:12 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 18ms
+
+ActionView::MissingTemplate (Missing template song/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/Users/ryan/Sites/FstFwd/app/views"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/ryan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 17:02:07 -0700
+  Processing by SongController#index as HTML
+Rendered song/index.html.haml within layouts/application (2.9ms)
+Completed 200 OK in 432ms (Views: 7.4ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 17:02:14 -0700
+  Processing by SongController#index as HTML
+Rendered song/index.html.haml within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: <h3>All songs</h3>
+    2: <div>
+    3: <% @songs.each do |song| %>
+    4:     <%= render :partial => "songdisplay", :locals => { :song => song } %>
+    5:     <br />
+    6: <% end %>
+    7: </div>
+  app/views/song/index.html.haml:4
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.8ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.9ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 17:04:49 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.erb (1.0ms)
+Rendered song/_songdisplay.html.erb (0.8ms)
+Rendered song/_songdisplay.html.erb (0.7ms)
+Rendered song/index.html.haml within layouts/application (40.9ms)
+Completed 200 OK in 62ms (Views: 46.2ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-07 17:20:59 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.8ms)
+Rendered song/_songdisplay.html.haml (10.3ms)
+Rendered song/_songdisplay.html.haml (38.9ms)
+Rendered song/index.html.haml within layouts/application (68.6ms)
+Completed 200 OK in 91ms (Views: 73.8ms)
