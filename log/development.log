@@ -2402,3 +2402,1105 @@ ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
   
 
 Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-10 11:53:23 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.8ms)
+Rendered song/_songdisplay.html.haml (20.6ms)
+Rendered song/index.html.haml within layouts/application (51.3ms)
+Completed 200 OK in 107ms (Views: 70.7ms)
+
+
+Started GET "/song/1" for 127.0.0.1 at 2011-09-10 11:53:23 -0700
+
+AbstractController::ActionNotFound (The action '1' could not be found for SongController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started GET "/song/1" for 127.0.0.1 at 2011-09-10 11:53:23 -0700
+
+AbstractController::ActionNotFound (The action '1' could not be found for SongController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-10 11:54:15 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.6ms)
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/index.html.haml within layouts/application (30.9ms)
+Completed 200 OK in 58ms (Views: 37.5ms)
+
+
+Started GET "/song/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 11:54:15 -0700
+
+AbstractController::ActionNotFound (The action '4e6baa814883c17b5e00010e' could not be found for SongController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/song/s4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 11:54:23 -0700
+
+AbstractController::ActionNotFound (The action 's4e6baa814883c17b5e00010e' could not be found for SongController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/song/show4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 11:54:24 -0700
+
+AbstractController::ActionNotFound (The action 'show4e6baa814883c17b5e00010e' could not be found for SongController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/song/show.4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 11:54:24 -0700
+
+ActionController::RoutingError (No route matches "/song/show.4e6baa814883c17b5e00010e"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 11:54:25 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Completed 500 Internal Server Error in 29ms
+
+ActionView::MissingTemplate (Missing template song/show with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml, :haml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/Users/ryan/Sites/FstFwd/app/views"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.1ms)
+
+
+Started GET "/song/show/" for 127.0.0.1 at 2011-09-10 11:54:36 -0700
+  Processing by SongController#show as HTML
+Completed 500 Internal Server Error in 16ms
+
+ActionView::MissingTemplate (Missing template song/show with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml, :haml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/Users/ryan/Sites/FstFwd/app/views"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/song/show/" for 127.0.0.1 at 2011-09-10 11:56:22 -0700
+  Processing by SongController#show as HTML
+Rendered song/show.html.haml within layouts/application (76.8ms)
+Completed 500 Internal Server Error in 96ms
+
+ActionView::Template::Error (undefined local variable or method `song' for #<#<Class:0x007faf4b9a3218>:0x007faf4b9a1788>):
+    3:     #original_url_button.service_button
+    4:       .button_title Original URL
+    5:     .service_result
+    6:       .results_link.original_url= song.orig_url
+    7:   %div
+    8:     #fstfwd_id_button.service_button
+    9:       .button_title FstFwd ID
+  app/views/song/show.html.haml:6:in `_app_views_song_show_html_haml___383683428867013114_70195432194440_315209198703351590'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (36.6ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (60.7ms)
+
+
+Started GET "/song/show/" for 127.0.0.1 at 2011-09-10 11:57:07 -0700
+  Processing by SongController#show as HTML
+Rendered song/show.html.haml within layouts/application (6.3ms)
+Completed 200 OK in 36ms (Views: 15.1ms)
+
+
+Started GET "/song/show/4" for 127.0.0.1 at 2011-09-10 11:57:14 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4"}
+Rendered song/show.html.haml within layouts/application (5.2ms)
+Completed 200 OK in 22ms (Views: 9.3ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 11:57:14 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (4.9ms)
+Completed 200 OK in 22ms (Views: 9.2ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 11:57:30 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (17.8ms)
+Completed 500 Internal Server Error in 62ms
+
+ActionView::Template::Error (undefined local variable or method `song' for #<#<Class:0x007faf4bc1e3a8>:0x007faf4bbfb6c8>):
+    3:     #original_url_button.service_button
+    4:       .button_title Original URL
+    5:     .service_result
+    6:       .results_link.original_url= song.orig_url
+    7:   %div
+    8:     #fstfwd_id_button.service_button
+    9:       .button_title FstFwd ID
+  app/views/song/show.html.haml:6:in `_app_views_song_show_html_haml___383683428867013114_70195433427240_315209198703351590'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.3ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:01:25 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 62ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: %div
+    2:   - @songs.each do |song|
+    3:     = render :partial => "songdisplay", :locals => { :song => song }
+    4:     %br/
+  app/views/song/show.html.haml:2:in `_app_views_song_show_html_haml___383683428867013114_70195434856820_315209198703351590'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (26.8ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:03:07 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: %div
+    2:   - @song.each do |song|
+    3:     = render :partial => "songdisplay", :locals => { :song => song }
+    4:     %br/
+  app/views/song/show.html.haml:2:in `_app_views_song_show_html_haml___383683428867013114_70195433555740_315209198703351590'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (27.2ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:04:00 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (undefined method `fstfwd_id' for nil:NilClass):
+    1: %div
+    2:   - @song.fstfwd_id
+  app/views/song/show.html.haml:2:in `_app_views_song_show_html_haml___383683428867013114_70195432497340_315209198703351590'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (20.7ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (12.0ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (76.5ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:04:15 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (5.2ms)
+Completed 200 OK in 25ms (Views: 9.9ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:04:35 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (undefined method `grooveshark_id' for nil:NilClass):
+    1: %div
+    2:   - @song.grooveshark_id
+  app/views/song/show.html.haml:2:in `_app_views_song_show_html_haml___383683428867013114_70195433028260_315209198703351590'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.5ms)
+
+
+Started GET "/song/show/" for 127.0.0.1 at 2011-09-10 12:04:41 -0700
+  Processing by SongController#show as HTML
+Rendered song/show.html.haml within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined method `grooveshark_id' for nil:NilClass):
+    1: %div
+    2:   - @song.grooveshark_id
+  app/views/song/show.html.haml:2:in `_app_views_song_show_html_haml___383683428867013114_70195434706280_315209198703351590'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.5ms)
+
+
+Started GET "/song/show/" for 127.0.0.1 at 2011-09-10 12:04:46 -0700
+  Processing by SongController#show as HTML
+Rendered song/show.html.haml within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined method `grooveshark_id' for nil:NilClass):
+    1: %div
+    2:   - @song.grooveshark_id
+  app/views/song/show.html.haml:2:in `_app_views_song_show_html_haml___383683428867013114_70195433296560_315209198703351590'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.8ms)
+
+
+Started GET "/song/show/1" for 127.0.0.1 at 2011-09-10 12:04:50 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"1"}
+Rendered song/show.html.haml within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined method `grooveshark_id' for nil:NilClass):
+    1: %div
+    2:   - @song.grooveshark_id
+  app/views/song/show.html.haml:2:in `_app_views_song_show_html_haml___383683428867013114_70195432259340_315209198703351590'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (37.9ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (67.1ms)
+
+
+Started GET "/song/show/1" for 127.0.0.1 at 2011-09-10 12:04:50 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"1"}
+Rendered song/show.html.haml within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined method `grooveshark_id' for nil:NilClass):
+    1: %div
+    2:   - @song.grooveshark_id
+  app/views/song/show.html.haml:2:in `_app_views_song_show_html_haml___383683428867013114_70195434493000_315209198703351590'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+
+
+Started GET "/u" for 127.0.0.1 at 2011-09-10 12:17:41 -0700
+
+ActionController::RoutingError (No route matches "/u"):
+  
+
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/ryan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/urls/" for 127.0.0.1 at 2011-09-10 12:17:41 -0700
+
+ActionController::RoutingError (No route matches "/urls"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 12:17:58 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (39.8ms)
+Rendered song/_songdisplay.html.haml (10.8ms)
+Rendered song/index.html.haml within layouts/application (60.2ms)
+Completed 200 OK in 554ms (Views: 64.6ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 12:17:59 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (43.4ms)
+Rendered song/_songdisplay.html.haml (11.3ms)
+Rendered song/index.html.haml within layouts/application (65.3ms)
+Completed 200 OK in 90ms (Views: 74.4ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-10 12:18:02 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (39.8ms)
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/index.html.haml within layouts/application (59.5ms)
+Completed 200 OK in 79ms (Views: 63.7ms)
+
+
+Started GET "/song/show/" for 127.0.0.1 at 2011-09-10 12:18:03 -0700
+  Processing by SongController#show as HTML
+Completed 500 Internal Server Error in 14ms
+
+NoMethodError (undefined method `grooveshark_id' for nil:NilClass):
+  app/controllers/song_controller.rb:22:in `show'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.9ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:18:03 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Completed 500 Internal Server Error in 14ms
+
+NoMethodError (undefined method `grooveshark_id' for nil:NilClass):
+  app/controllers/song_controller.rb:22:in `show'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:18:51 -0700
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/controllers/song_controller.rb:25: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:18:58 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (undefined method `grooveshark_id' for nil:NilClass):
+    1: %div
+    2:   - @song.grooveshark_id
+  app/views/song/show.html.haml:2:in `_app_views_song_show_html_haml__2581884821421487921_70218454941580_1927724202203503560'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.2ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:19:30 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 40ms
+
+ActionView::Template::Error (undefined method `grooveshark_id' for nil:NilClass):
+    1: %div
+    2:   - @song.grooveshark_id
+  app/views/song/show.html.haml:2:in `_app_views_song_show_html_haml__2581884821421487921_70218460183860_1927724202203503560'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.1ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:19:33 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 51ms
+
+ActionView::Template::Error (undefined method `grooveshark_id' for nil:NilClass):
+    1: %div
+    2:   - @song.grooveshark_id
+  app/views/song/show.html.haml:2:in `_app_views_song_show_html_haml__2581884821421487921_70218473157080_1927724202203503560'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.7ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:19:41 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (undefined method `orig_url' for nil:NilClass):
+    1: %div
+    2:   - @song.orig_url
+  app/views/song/show.html.haml:2:in `_app_views_song_show_html_haml__2581884821421487921_70218458028900_1927724202203503560'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.7ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:19:47 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (7.7ms)
+Completed 200 OK in 30ms (Views: 13.3ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:20:42 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (5.4ms)
+Completed 200 OK in 24ms (Views: 9.8ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:21:18 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (5.2ms)
+Completed 200 OK in 22ms (Views: 9.4ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/ryan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 12:28:05 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (11.1ms)
+Rendered song/_songdisplay.html.haml (11.6ms)
+Rendered song/index.html.haml within layouts/application (33.0ms)
+Completed 200 OK in 554ms (Views: 37.7ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 12:28:06 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/_songdisplay.html.haml (10.7ms)
+Rendered song/index.html.haml within layouts/application (31.0ms)
+Completed 200 OK in 89ms (Views: 35.8ms)
+
+
+Started GET "/songs" for 127.0.0.1 at 2011-09-10 12:28:10 -0700
+
+ActionController::RoutingError (uninitialized constant SongsController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.9ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 12:28:14 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.6ms)
+Rendered song/_songdisplay.html.haml (10.9ms)
+Rendered song/index.html.haml within layouts/application (31.0ms)
+Completed 200 OK in 51ms (Views: 36.4ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:28:15 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 24ms (Views: 9.4ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:28:47 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (7.8ms)
+Completed 200 OK in 34ms (Views: 12.8ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:28:53 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (undefined local variable or method `song' for #<#<Class:0x007fb4b5119768>:0x007fb4b50ed690>):
+    1: %div
+    2: 	- song.track_info
+  app/views/song/show.html.haml:2:in `_app_views_song_show_html_haml__3205283581223155542_70207054241620_3812150439447352033'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:29:11 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (7.3ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (undefined local variable or method `song' for #<#<Class:0x007fb4b2546208>:0x007fb4b2528870>):
+    1: %div
+    2: 	= song.track_info
+  app/views/song/show.html.haml:2:in `_app_views_song_show_html_haml__3205283581223155542_70207031287400_3812150439447352033'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (39.6ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:29:20 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (undefined local variable or method `song' for #<#<Class:0x007fb4b39375f0>:0x007fb4b392e180>):
+    1: %div= song.track_info
+  app/views/song/show.html.haml:1:in `_app_views_song_show_html_haml__3205283581223155542_70207041787240_3812150439447352033'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.1ms)
+
+
+Started GET "/song/show/1" for 127.0.0.1 at 2011-09-10 12:29:31 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"1"}
+Rendered song/show.html.haml within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 58ms
+
+ActionView::Template::Error (undefined local variable or method `song' for #<#<Class:0x007fb4b543cf08>:0x007fb4b54051e8>):
+    1: %div= song.track_info
+  app/views/song/show.html.haml:1:in `_app_views_song_show_html_haml__3205283581223155542_70207055862080_3812150439447352033'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.7ms)
+
+
+Started GET "/song/show/4e6baa814883c17b5e00010e" for 127.0.0.1 at 2011-09-10 12:29:34 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa814883c17b5e00010e"}
+Rendered song/show.html.haml within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (undefined local variable or method `song' for #<#<Class:0x007fb4b26cd0b8>:0x007fb4b26b9838>):
+    1: %div= song.track_info
+  app/views/song/show.html.haml:1:in `_app_views_song_show_html_haml__3205283581223155542_70207032102660_3812150439447352033'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/songs" for 127.0.0.1 at 2011-09-10 12:36:59 -0700
+
+ActionController::RoutingError (uninitialized constant SongsController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 12:37:00 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (11.3ms)
+Rendered song/_songdisplay.html.haml (10.6ms)
+Rendered song/index.html.haml within layouts/application (60.8ms)
+Completed 200 OK in 80ms (Views: 65.3ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 12:37:02 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (8.1ms)
+Completed 200 OK in 27ms (Views: 13.0ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 12:37:10 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (41.1ms)
+Completed 200 OK in 59ms (Views: 45.6ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 12:37:12 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/19xHOPju4WdsErvJo0gJHc"}}
+Redirected to http://localhost:3000/song
+Completed 302 Found in 3556ms
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 12:37:16 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (43.4ms)
+Rendered song/_songdisplay.html.haml (11.9ms)
+Rendered song/_songdisplay.html.haml (11.4ms)
+Rendered song/index.html.haml within layouts/application (78.6ms)
+Completed 200 OK in 102ms (Views: 83.2ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 12:37:33 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.9ms)
+Rendered song/_songdisplay.html.haml (11.2ms)
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/index.html.haml within layouts/application (72.5ms)
+Completed 200 OK in 124ms (Views: 77.2ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-10 12:37:39 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (11.6ms)
+Rendered song/_songdisplay.html.haml (48.9ms)
+Rendered song/_songdisplay.html.haml (12.1ms)
+Rendered song/index.html.haml within layouts/application (83.8ms)
+Completed 200 OK in 105ms (Views: 90.1ms)
+
+
+Started GET "/song/4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:37:40 -0700
+
+AbstractController::ActionNotFound (The action '4e6bbc684883c1940b00000d' could not be found for SongController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started GET "/song/s4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:37:45 -0700
+
+AbstractController::ActionNotFound (The action 's4e6bbc684883c1940b00000d' could not be found for SongController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/song/sh4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:37:45 -0700
+
+AbstractController::ActionNotFound (The action 'sh4e6bbc684883c1940b00000d' could not be found for SongController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started GET "/song/shp4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:37:45 -0700
+
+AbstractController::ActionNotFound (The action 'shp4e6bbc684883c1940b00000d' could not be found for SongController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/song/shpw4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:37:46 -0700
+
+AbstractController::ActionNotFound (The action 'shpw4e6bbc684883c1940b00000d' could not be found for SongController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/song/show4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:37:46 -0700
+
+AbstractController::ActionNotFound (The action 'show4e6bbc684883c1940b00000d' could not be found for SongController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started GET "/song/show/4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:37:47 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6bbc684883c1940b00000d"}
+Rendered song/show.html.haml within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (undefined local variable or method `song' for #<#<Class:0x007fb4b50a0f20>:0x007fb4b509e3b0>):
+    1: %div= song.track_info
+  app/views/song/show.html.haml:1:in `_app_views_song_show_html_haml__3205283581223155542_70207054049940_3812150439447352033'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.9ms)
+
+
+Started GET "/song/show/4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:39:10 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6bbc684883c1940b00000d"}
+Rendered song/show.html.haml within layouts/application (12.7ms)
+Completed 500 Internal Server Error in 50ms
+
+ActionView::Template::Error (undefined local variable or method `song' for #<#<Class:0x007fb4b2499e40>:0x007fb4b2494cb0>):
+    1: %div= song.id
+  app/views/song/show.html.haml:1:in `_app_views_song_show_html_haml__3205283581223155542_70207030965680_3812150439447352033'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.1ms)
+
+
+Started GET "/song/show/4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:39:29 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6bbc684883c1940b00000d"}
+Rendered song/show.html.haml within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+    1: %div= @song.id
+  app/views/song/show.html.haml:1:in `_app_views_song_show_html_haml__3205283581223155542_70207041604880_3812150439447352033'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.9ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.1ms)
+
+
+Started GET "/song/show/4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:39:49 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6bbc684883c1940b00000d"}
+Rendered song/show.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 63ms (Views: 10.3ms)
+
+
+Started GET "/song/show/4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:40:23 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6bbc684883c1940b00000d"}
+Rendered song/show.html.haml within layouts/application (4.9ms)
+Completed 200 OK in 25ms (Views: 10.4ms)
+
+
+Started GET "/song/show/4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:40:37 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6bbc684883c1940b00000d"}
+Rendered song/show.html.haml within layouts/application (8.2ms)
+Completed 200 OK in 48ms (Views: 21.0ms)
+
+
+Started GET "/song/show/4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:40:49 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6bbc684883c1940b00000d"}
+Rendered song/show.html.haml within layouts/application (4.7ms)
+Completed 200 OK in 22ms (Views: 9.1ms)
+
+
+Started GET "/song/show/4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:41:22 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6bbc684883c1940b00000d"}
+Rendered song/show.html.haml within layouts/application (8.8ms)
+Completed 200 OK in 35ms (Views: 14.5ms)
+
+
+Started GET "/song/show/4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:42:02 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6bbc684883c1940b00000d"}
+Rendered song/show.html.haml within layouts/application (46.0ms)
+Completed 500 Internal Server Error in 67ms
+
+ActionView::Template::Error (undefined local variable or method `song' for #<#<Class:0x007fb4b2286a40>:0x007fb4b227bfa0>):
+    1: = render :partial => "songdisplay", :locals => { :song => song }
+  app/views/song/show.html.haml:1:in `_app_views_song_show_html_haml__3205283581223155542_70207029886680_3812150439447352033'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.1ms)
+
+
+Started GET "/song/show/4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:42:52 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6bbc684883c1940b00000d"}
+ERROR: compiling _app_views_song_show_html_haml__3205283581223155542_70207032348000_3812150439447352033 RAISED /Users/ryan/Sites/FstFwd/app/views/song/show.html.haml:1: syntax error, unexpected '}', expecting tASSOC
+/Users/ryan/Sites/FstFwd/app/views/song/show.html.haml:2: unterminated string meets end of file
+/Users/ryan/Sites/FstFwd/app/views/song/show.html.haml:2: syntax error, unexpected $end, expecting ')'
+Function body:           def _app_views_song_show_html_haml__3205283581223155542_70207032348000_3812150439447352033(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "song/show";_old_output_buffer = @output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :preserve=>["textarea", "pre", "code"], :attr_wrapper=>"'", :ugly=>false, :format=>:html5, :encoding=>"UTF-8", :escape_html=>true, :escape_attrs=>true});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("#{_hamlout.format_script_false_false_false_true_false_true_false(( render :partial => "songdisplay", :locals => { song }
+));}\n", 0, false);::Haml::Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_view/template.rb:258:in `module_eval'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_view/template.rb:258:in `compile'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_view/template.rb:134:in `block in render'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.9/lib/active_support/notifications.rb:54:in `instrument'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_view/template.rb:127:in `render'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:59:in `block in _render_template'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_view/render/rendering.rb:26:in `render'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/haml-3.1.3/lib/haml/helpers/action_view_mods.rb:13:in `render_with_haml'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:93:in `render'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.9/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/ryan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.9/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/abstract_controller/base.rb:150:in `process_action'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:436:in `_run__1346218824306368807__process_action__437995610527107566__callbacks'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:410:in `_run_process_action_callbacks'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:94:in `run_callbacks'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `block in instrument'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.9/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.9/lib/active_support/notifications.rb:52:in `instrument'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/abstract_controller/base.rb:119:in `process'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/abstract_controller/rendering.rb:41:in `process'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_controller/metal.rb:178:in `block in action'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/routing/route_set.rb:493:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/mongo_mapper-0.9.2/lib/mongo_mapper/middleware/identity_map.rb:10:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin/rack.rb:54:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/methodoverride.rb:24:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.9/lib/active_support/callbacks.rb:416:in `_run_call_callbacks'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/sendfile.rb:107:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.9/lib/rails/rack/logger.rb:13:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/runtime.rb:17:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/activesupport-3.0.9/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/lock.rb:11:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.9/lib/rails/application.rb:168:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.9/lib/rails/application.rb:77:in `method_missing'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/railties-3.0.9/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/content_length.rb:13:in `call'
+/Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.2.3/lib/rack/handler/webrick.rb:52:in `service'
+/Users/ryan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/ryan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/ryan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered song/show.html.haml within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (/Users/ryan/Sites/FstFwd/app/views/song/show.html.haml:1: syntax error, unexpected '}', expecting tASSOC
+/Users/ryan/Sites/FstFwd/app/views/song/show.html.haml:2: unterminated string meets end of file
+/Users/ryan/Sites/FstFwd/app/views/song/show.html.haml:2: syntax error, unexpected $end, expecting ')'):
+    1: = render :partial => "songdisplay", :locals => { song }
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.5ms)
+
+
+Started GET "/song/show/4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:42:59 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6bbc684883c1940b00000d"}
+Rendered song/show.html.haml within layouts/application (14.6ms)
+Completed 500 Internal Server Error in 39ms
+
+ActionView::Template::Error (undefined local variable or method `song' for #<#<Class:0x007fb4b50c7cd8>:0x007fb4b50b65c8>):
+    1: = render :partial => "songdisplay", :locals => song
+  app/views/song/show.html.haml:1:in `_app_views_song_show_html_haml__3205283581223155542_70207054128620_3812150439447352033'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+
+
+Started GET "/song/show/4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:43:32 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6bbc684883c1940b00000d"}
+Rendered song/show.html.haml within layouts/application (14.0ms)
+Completed 500 Internal Server Error in 45ms
+
+ActionView::Template::Error (undefined local variable or method `song' for #<#<Class:0x007fb4b24428e8>:0x007fb4b2439568>):
+    1: = render :partial => "songdisplay", :locals => { @song => song }
+  app/views/song/show.html.haml:1:in `_app_views_song_show_html_haml__3205283581223155542_70207030793560_3812150439447352033'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (11.7ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.7ms)
+
+
+Started GET "/song/show/4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:43:49 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6bbc684883c1940b00000d"}
+Rendered song/show.html.haml within layouts/application (6.1ms)
+Completed 200 OK in 43ms (Views: 14.7ms)
+
+
+Started GET "/song/show/4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:44:09 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6bbc684883c1940b00000d"}
+Rendered song/_songdisplay.html.haml (0.9ms)
+Rendered song/show.html.haml within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 56ms
+
+ActionView::Template::Error (undefined method `map!' for #<Hash:0x007fb4b21ac9a8>):
+  app/views/song/show.html.haml:1:in `_app_views_song_show_html_haml__3205283581223155542_70207055542120_3812150439447352033'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.4ms)
+
+
+Started GET "/song/show/4e6bbc684883c1940b00000d" for 127.0.0.1 at 2011-09-10 12:44:55 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6bbc684883c1940b00000d"}
+Rendered song/_songdisplay.html.haml (57.5ms)
+Rendered song/show.html.haml within layouts/application (64.7ms)
+Completed 200 OK in 92ms (Views: 71.2ms)
+
+
+Started GET "/song/show/4e6baa654883c17b5e000109" for 127.0.0.1 at 2011-09-10 12:45:41 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa654883c17b5e000109"}
+Rendered song/_songdisplay.html.haml (11.6ms)
+Rendered song/show.html.haml within layouts/application (18.5ms)
+Completed 200 OK in 50ms (Views: 23.4ms)
+
+
+Started GET "/song/show/4e6baa654883c17b5e000109" for 127.0.0.1 at 2011-09-10 12:47:13 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6baa654883c17b5e000109"}
+Rendered song/_songdisplay.html.haml (16.1ms)
+Rendered song/show.html.haml within layouts/application (27.2ms)
+Completed 200 OK in 55ms (Views: 32.3ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/ryan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 12:50:45 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.9ms)
+Rendered song/_songdisplay.html.haml (11.4ms)
+Rendered song/_songdisplay.html.haml (11.6ms)
+Rendered song/index.html.haml within layouts/application (75.0ms)
+Completed 200 OK in 519ms (Views: 79.9ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 12:50:45 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (11.5ms)
+Rendered song/_songdisplay.html.haml (20.0ms)
+Rendered song/_songdisplay.html.haml (44.4ms)
+Rendered song/index.html.haml within layouts/application (87.4ms)
+Completed 200 OK in 109ms (Views: 92.8ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 12:50:49 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (7.5ms)
+Completed 200 OK in 26ms (Views: 12.0ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 12:54:43 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (7.9ms)
+Completed 200 OK in 25ms (Views: 12.3ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-10 12:54:46 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (45.7ms)
+Rendered song/_songdisplay.html.haml (19.0ms)
+Rendered song/_songdisplay.html.haml (11.5ms)
+Rendered song/index.html.haml within layouts/application (87.5ms)
+Completed 200 OK in 108ms (Views: 91.9ms)
+
+
+Started GET "/s" for 127.0.0.1 at 2011-09-10 12:54:47 -0700
+
+ActionController::RoutingError (No route matches "/s"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 12:57:22 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.8ms)
+Rendered song/_songdisplay.html.haml (40.7ms)
+Rendered song/_songdisplay.html.haml (10.2ms)
+Rendered song/index.html.haml within layouts/application (72.3ms)
+Completed 200 OK in 91ms (Views: 76.5ms)
+
+
+Started GET "/song/show/" for 127.0.0.1 at 2011-09-10 12:57:23 -0700
+  Processing by SongController#show as HTML
+Completed 500 Internal Server Error in 14ms
+
+RuntimeError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id):
+  app/controllers/song_controller.rb:22:in `show'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (52.9ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 12:57:23 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.9ms)
+Rendered song/_songdisplay.html.haml (11.1ms)
+Rendered song/_songdisplay.html.haml (42.1ms)
+Rendered song/index.html.haml within layouts/application (74.9ms)
+Completed 200 OK in 95ms (Views: 79.2ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 12:58:54 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (7.2ms)
+Completed 200 OK in 24ms (Views: 11.5ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 12:58:57 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/22d5vvCijMTue7PvUrGiz9"}}
+Redirected to http://localhost:3000/song/4e6bc1814883c19524000016
+Completed 302 Found in 3972ms
+
+
+Started GET "/song/4e6bc1814883c19524000016" for 127.0.0.1 at 2011-09-10 12:59:01 -0700
+
+AbstractController::ActionNotFound (The action '4e6bc1814883c19524000016' could not be found for SongController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 12:59:13 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/22d5vvCijMTue7PvUrGiz9"}}
+Redirected to http://localhost:3000/song/show4e6bc1914883c19524000018
+Completed 302 Found in 3751ms
+
+
+Started GET "/song/show4e6bc1914883c19524000018" for 127.0.0.1 at 2011-09-10 12:59:17 -0700
+
+AbstractController::ActionNotFound (The action 'show4e6bc1914883c19524000018' could not be found for SongController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started GET "/song/show/4e6bc1914883c19524000018" for 127.0.0.1 at 2011-09-10 12:59:27 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6bc1914883c19524000018"}
+Rendered song/_songdisplay.html.haml (11.1ms)
+Rendered song/show.html.haml within layouts/application (18.5ms)
+Completed 200 OK in 38ms (Views: 22.7ms)
+
+
+Started GET "/song/show/4e6bc1914883c19524000018" for 127.0.0.1 at 2011-09-10 12:59:27 -0700
+  Processing by SongController#show as HTML
+  Parameters: {"id"=>"4e6bc1914883c19524000018"}
+Rendered song/_songdisplay.html.haml (11.0ms)
+Rendered song/show.html.haml within layouts/application (17.9ms)
+Completed 200 OK in 111ms (Views: 22.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-10 13:06:57 -0700
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 13:06:57 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 28ms (Views: 14.3ms)

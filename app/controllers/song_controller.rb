@@ -11,9 +11,14 @@ class SongController < ApplicationController
     def create
         @song = Song.new(params[:song])
         if @song.save
-            redirect_to '/song'
+            redirect_to '/song/show/' + @song.id
         else
             render :action => :new
         end
+    end
+    
+    def show
+    		@song = Song.find(params[:id])
+				puts @song.id
     end
 end

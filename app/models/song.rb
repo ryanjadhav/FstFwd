@@ -33,6 +33,7 @@ class Song
   # Return a standardized query string
   def create_query(artist, song)
 		middle_concat = ''
+		
 		if artist 
 			artist = artist.gsub(/\s/, '+'); 
 		end
@@ -155,6 +156,7 @@ class Song
   end
 
   def calculate_lastfm_id(track_info)
+  	# Prep the data fields
   	artist = track_info['artist'].gsub(/\s/, '+')
   	track = track_info['track'].gsub(/\s/, '+')
 
