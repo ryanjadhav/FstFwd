@@ -508,3 +508,1588 @@ Rendered song/_songdisplay.html.haml (10.3ms)
 Rendered song/_songdisplay.html.haml (38.9ms)
 Rendered song/index.html.haml within layouts/application (68.6ms)
 Completed 200 OK in 91ms (Views: 73.8ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 18:07:05 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.4ms)
+Rendered song/_songdisplay.html.haml (10.4ms)
+Rendered song/_songdisplay.html.haml (40.9ms)
+Rendered song/index.html.haml within layouts/application (73.2ms)
+Completed 200 OK in 93ms (Views: 78.5ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 20:13:57 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (15.0ms)
+Rendered song/_songdisplay.html.haml (61.9ms)
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/index.html.haml within layouts/application (112.3ms)
+Completed 200 OK in 137ms (Views: 117.5ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 20:17:37 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (61.8ms)
+Rendered song/_songdisplay.html.haml (14.0ms)
+Rendered song/_songdisplay.html.haml (10.9ms)
+Rendered song/index.html.haml within layouts/application (99.9ms)
+Completed 200 OK in 122ms (Views: 105.2ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 20:19:21 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (41.7ms)
+Rendered song/_songdisplay.html.haml (20.2ms)
+Rendered song/_songdisplay.html.haml (14.5ms)
+Rendered song/index.html.haml within layouts/application (87.5ms)
+Completed 200 OK in 107ms (Views: 92.2ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 20:20:37 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (52.4ms)
+Rendered song/_songdisplay.html.haml (15.3ms)
+Rendered song/_songdisplay.html.haml (11.3ms)
+Rendered song/index.html.haml within layouts/application (95.5ms)
+Completed 200 OK in 115ms (Views: 99.7ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 20:21:27 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (11.8ms)
+Rendered song/_songdisplay.html.haml (12.3ms)
+Rendered song/_songdisplay.html.haml (12.1ms)
+Rendered song/index.html.haml within layouts/application (59.8ms)
+Completed 200 OK in 117ms (Views: 103.4ms)
+
+
+Started GET "/stylesheets/main.scss" for 127.0.0.1 at 2011-09-07 20:21:28 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/main.scss"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 20:21:37 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (16.2ms)
+Rendered song/_songdisplay.html.haml (16.0ms)
+Rendered song/_songdisplay.html.haml (19.0ms)
+Rendered song/index.html.haml within layouts/application (78.2ms)
+Completed 200 OK in 170ms (Views: 84.5ms)
+
+
+Started GET "/sass/main.scss" for 127.0.0.1 at 2011-09-07 20:21:37 -0700
+
+ActionController::RoutingError (No route matches "/sass/main.scss"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/sass/main.scss" for 127.0.0.1 at 2011-09-07 20:22:05 -0700
+
+ActionController::RoutingError (No route matches "/sass/main.scss"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/ssass/main.scss" for 127.0.0.1 at 2011-09-07 20:22:44 -0700
+
+ActionController::RoutingError (No route matches "/ssass/main.scss"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/sty;essass/main.scss" for 127.0.0.1 at 2011-09-07 20:22:44 -0700
+
+ActionController::RoutingError (No route matches "/sty;essass/main.scss"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesass/main.scss" for 127.0.0.1 at 2011-09-07 20:22:46 -0700
+
+ActionController::RoutingError (No route matches "/stylesass/main.scss"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheetssass/main.scss" for 127.0.0.1 at 2011-09-07 20:22:46 -0700
+
+ActionController::RoutingError (No route matches "/stylesheetssass/main.scss"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 20:23:07 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (11.3ms)
+Rendered song/_songdisplay.html.haml (17.1ms)
+Rendered song/_songdisplay.html.haml (10.7ms)
+Rendered song/index.html.haml within layouts/application (83.6ms)
+Completed 200 OK in 109ms (Views: 88.5ms)
+
+
+Started GET "/stylesheets/stylesheets/sass/main.scss" for 127.0.0.1 at 2011-09-07 20:23:07 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/sass/main.scss"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.9ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 20:23:45 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (11.7ms)
+Rendered song/_songdisplay.html.haml (41.5ms)
+Rendered song/_songdisplay.html.haml (10.4ms)
+Rendered song/index.html.haml within layouts/application (79.1ms)
+Completed 200 OK in 106ms (Views: 85.8ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 20:24:05 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (78.9ms)
+Rendered song/_songdisplay.html.haml (17.7ms)
+Rendered song/_songdisplay.html.haml (15.2ms)
+Rendered song/index.html.haml within layouts/application (133.0ms)
+Completed 200 OK in 164ms (Views: 137.8ms)
+
+
+Started GET "/stylesheets/stylesheets/sass/main.scss" for 127.0.0.1 at 2011-09-07 20:24:06 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/sass/main.scss"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (9.7ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 20:24:11 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.9ms)
+Rendered song/_songdisplay.html.haml (10.7ms)
+Rendered song/_songdisplay.html.haml (10.4ms)
+Rendered song/index.html.haml within layouts/application (71.5ms)
+Completed 200 OK in 97ms (Views: 78.7ms)
+
+
+Started GET "/stylesheets/stylesheets/sass/main.scss" for 127.0.0.1 at 2011-09-07 20:24:12 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/sass/main.scss"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 20:24:14 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (11.5ms)
+Rendered song/_songdisplay.html.haml (50.1ms)
+Rendered song/_songdisplay.html.haml (12.6ms)
+Rendered song/index.html.haml within layouts/application (87.1ms)
+Completed 200 OK in 108ms (Views: 93.7ms)
+
+
+Started GET "/stylesheets/stylesheets/sass/main.scss" for 127.0.0.1 at 2011-09-07 20:24:14 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/sass/main.scss"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 20:24:36 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (51.3ms)
+Rendered song/_songdisplay.html.haml (13.5ms)
+Rendered song/_songdisplay.html.haml (10.2ms)
+Rendered song/index.html.haml within layouts/application (88.6ms)
+Completed 200 OK in 109ms (Views: 93.8ms)
+
+
+Started GET "/stylesheets/stylesheets/sass/main.scss" for 127.0.0.1 at 2011-09-07 20:24:36 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/sass/main.scss"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 20:24:43 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (11.6ms)
+Rendered song/_songdisplay.html.haml (10.8ms)
+Rendered song/_songdisplay.html.haml (10.4ms)
+Rendered song/index.html.haml within layouts/application (47.3ms)
+Completed 200 OK in 73ms (Views: 53.0ms)
+
+
+Started GET "/stylesheets/stylesheets/sass/main.scss" for 127.0.0.1 at 2011-09-07 20:24:43 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/stylesheets/sass/main.scss"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 20:24:52 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (31.1ms)
+Rendered song/_songdisplay.html.haml (24.5ms)
+Rendered song/_songdisplay.html.haml (51.2ms)
+Rendered song/index.html.haml within layouts/application (129.4ms)
+Completed 200 OK in 175ms (Views: 155.3ms)
+
+
+Started GET "/song/1" for 127.0.0.1 at 2011-09-07 20:25:10 -0700
+
+AbstractController::ActionNotFound (The action '1' could not be found for SongController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-07 20:25:17 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (41.9ms)
+Rendered song/_songdisplay.html.haml (10.1ms)
+Rendered song/_songdisplay.html.haml (10.1ms)
+Rendered song/index.html.haml within layouts/application (74.1ms)
+Completed 200 OK in 92ms (Views: 78.4ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-07 20:25:17 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (13.8ms)
+Rendered song/_songdisplay.html.haml (11.2ms)
+Rendered song/_songdisplay.html.haml (10.3ms)
+Rendered song/index.html.haml within layouts/application (57.4ms)
+Completed 200 OK in 113ms (Views: 63.0ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-07 20:25:38 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (11.1ms)
+Rendered song/_songdisplay.html.haml (10.2ms)
+Rendered song/_songdisplay.html.haml (10.4ms)
+Rendered song/index.html.haml within layouts/application (72.3ms)
+Completed 200 OK in 91ms (Views: 77.3ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-07 20:25:38 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-07 20:29:21 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.4ms)
+Rendered song/_songdisplay.html.haml (39.4ms)
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/index.html.haml within layouts/application (71.8ms)
+Completed 200 OK in 96ms (Views: 78.8ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-07 20:29:21 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-07 20:29:39 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (55.6ms)
+Rendered song/_songdisplay.html.haml (11.4ms)
+Rendered song/_songdisplay.html.haml (10.1ms)
+Rendered song/index.html.haml within layouts/application (90.7ms)
+Completed 200 OK in 110ms (Views: 95.0ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-07 20:29:39 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-08 01:03:51 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (12.1ms)
+Rendered song/_songdisplay.html.haml (12.2ms)
+Rendered song/_songdisplay.html.haml (50.9ms)
+Rendered song/index.html.haml within layouts/application (242.0ms)
+Completed 200 OK in 1116ms (Views: 292.2ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-08 01:03:55 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (118.9ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-08 01:03:57 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (94.0ms)
+Rendered song/_songdisplay.html.haml (85.2ms)
+Rendered song/_songdisplay.html.haml (73.8ms)
+Rendered song/index.html.haml within layouts/application (294.2ms)
+Completed 200 OK in 319ms (Views: 299.5ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-08 01:03:58 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-08 01:11:34 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.4ms)
+Rendered song/_songdisplay.html.haml (10.3ms)
+Rendered song/_songdisplay.html.haml (10.0ms)
+Rendered song/index.html.haml within layouts/application (41.6ms)
+Completed 200 OK in 60ms (Views: 45.7ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-08 01:11:34 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-08 09:38:45 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (9.8ms)
+Rendered song/_songdisplay.html.haml (10.4ms)
+Rendered song/_songdisplay.html.haml (10.0ms)
+Rendered song/index.html.haml within layouts/application (72.6ms)
+Completed 200 OK in 133ms (Views: 97.3ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-08 09:38:46 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.7ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 19:16:49 -0700
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/ryan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (15.5ms)
+Rendered song/_songdisplay.html.haml (12.3ms)
+Rendered song/_songdisplay.html.haml (49.3ms)
+Rendered song/index.html.haml within layouts/application (90.3ms)
+Completed 200 OK in 748ms (Views: 124.3ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 19:16:50 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (130.3ms)
+Rendered song/_songdisplay.html.haml (24.9ms)
+Rendered song/_songdisplay.html.haml (22.7ms)
+Rendered song/index.html.haml within layouts/application (287.7ms)
+Completed 200 OK in 542ms (Views: 464.4ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-09 19:16:51 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-09 19:17:08 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (9.8ms)
+Completed 200 OK in 45ms (Views: 32.1ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-09 19:17:17 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://google.com"}}
+Redirected to http://localhost:3000/song
+Completed 302 Found in 1519ms
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 19:17:18 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (13.3ms)
+Rendered song/_songdisplay.html.haml (49.5ms)
+Rendered song/_songdisplay.html.haml (11.1ms)
+Rendered song/_songdisplay.html.haml (12.4ms)
+Rendered song/index.html.haml within layouts/application (99.5ms)
+Completed 200 OK in 122ms (Views: 105.4ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-09 19:17:19 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:27:20 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 32ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:111: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:28:31 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:111: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.8ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:28:32 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:111: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.6ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:30:06 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:111: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.6ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:30:07 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:111: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:30:32 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 11ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:13: syntax error, unexpected '(', expecting keyword_end
+  after_validation :calculate_services(orig_url)
+                                       ^
+/Users/ryan/Sites/FstFwd/app/models/song.rb:111: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:32:15 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 8ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:111: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:32:17 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:111: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:33:36 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:111: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.9ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:33:37 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:111: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:33:44 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (11.3ms)
+Rendered song/_songdisplay.html.haml (41.6ms)
+Rendered song/_songdisplay.html.haml (10.3ms)
+Rendered song/_songdisplay.html.haml (10.4ms)
+Rendered song/index.html.haml within layouts/application (98.7ms)
+Completed 200 OK in 146ms (Views: 130.3ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-09 21:33:44 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:34:59 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 9ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:113: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:35:19 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:113: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.8ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:35:25 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:113: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.1ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:35:26 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:113: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:35:34 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:113: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.5ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:35:34 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:113: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.3ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:35:35 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:113: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:35:50 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.6ms)
+Rendered song/_songdisplay.html.haml (10.3ms)
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/_songdisplay.html.haml (39.5ms)
+Rendered song/index.html.haml within layouts/application (85.2ms)
+Completed 200 OK in 137ms (Views: 89.3ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-09 21:35:50 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:39:56 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:36: unknown regexp option - g
+/Users/ryan/Sites/FstFwd/app/models/song.rb:39: unknown regexp option - g
+/Users/ryan/Sites/FstFwd/app/models/song.rb:129: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.6ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:41:53 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 8ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:128: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:42:02 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (57.8ms)
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/_songdisplay.html.haml (10.9ms)
+Rendered song/_songdisplay.html.haml (12.6ms)
+Rendered song/index.html.haml within layouts/application (107.0ms)
+Completed 200 OK in 136ms (Views: 111.9ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-09 21:42:02 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:43:08 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (14.7ms)
+Rendered song/_songdisplay.html.haml (44.3ms)
+Rendered song/_songdisplay.html.haml (11.3ms)
+Rendered song/_songdisplay.html.haml (11.9ms)
+Rendered song/index.html.haml within layouts/application (95.7ms)
+Completed 200 OK in 119ms (Views: 102.3ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-09 21:43:08 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.9ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-09 21:44:16 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (10.3ms)
+Completed 200 OK in 75ms (Views: 37.5ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-09 21:44:20 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/6CNlnlcnQ7DMFmloIRR1e3"}}
+Completed 500 Internal Server Error in 15ms
+
+NoMethodError (undefined method `include' for "http://open.spotify.com/track/6CNlnlcnQ7DMFmloIRR1e3":String):
+  app/models/song.rb:50:in `lookup_track_info'
+  app/models/song.rb:19:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.6ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:45:42 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (11.4ms)
+Rendered song/_songdisplay.html.haml (11.0ms)
+Rendered song/_songdisplay.html.haml (43.7ms)
+Rendered song/_songdisplay.html.haml (12.8ms)
+Rendered song/index.html.haml within layouts/application (104.5ms)
+Completed 200 OK in 138ms (Views: 121.8ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-09 21:45:42 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-09 21:45:45 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 25ms (Views: 12.3ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-09 21:45:49 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"google.com"}}
+Completed 500 Internal Server Error in 16ms
+
+NoMethodError (undefined method `include' for "google.com":String):
+  app/models/song.rb:50:in `lookup_track_info'
+  app/models/song.rb:19:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.3ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-09 21:46:59 -0700
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/ryan/Sites/FstFwd/app/controllers/application_controller.rb:1)
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"google.com"}}
+Completed 500 Internal Server Error in 409ms
+
+NoMethodError (undefined method `include' for "google.com":String):
+  app/models/song.rb:50:in `lookup_track_info'
+  app/models/song.rb:19:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.6ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:47:08 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.9ms)
+Rendered song/_songdisplay.html.haml (42.8ms)
+Rendered song/_songdisplay.html.haml (11.0ms)
+Rendered song/_songdisplay.html.haml (11.3ms)
+Rendered song/index.html.haml within layouts/application (90.1ms)
+Completed 200 OK in 212ms (Views: 110.1ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-09 21:47:08 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (11.5ms)
+Rendered song/_songdisplay.html.haml (11.2ms)
+Rendered song/_songdisplay.html.haml (11.3ms)
+Rendered song/_songdisplay.html.haml (41.3ms)
+Rendered song/index.html.haml within layouts/application (122.7ms)
+Completed 200 OK in 147ms (Views: 129.5ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-09 21:47:08 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-09 21:47:11 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 25ms (Views: 12.3ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-09 21:47:13 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"adsf"}}
+Completed 500 Internal Server Error in 47ms
+
+NoMethodError (undefined method `include' for "adsf":String):
+  app/models/song.rb:50:in `lookup_track_info'
+  app/models/song.rb:19:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.7ms)
+
+
+Started GET "/song/cr" for 127.0.0.1 at 2011-09-09 21:48:19 -0700
+
+AbstractController::ActionNotFound (The action 'cr' could not be found for SongController):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.7ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-09 21:48:20 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:134: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.2ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-09 21:48:29 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (11.0ms)
+Rendered song/_songdisplay.html.haml (11.9ms)
+Rendered song/_songdisplay.html.haml (41.5ms)
+Rendered song/_songdisplay.html.haml (11.9ms)
+Rendered song/index.html.haml within layouts/application (89.7ms)
+Completed 200 OK in 110ms (Views: 94.3ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-09 21:48:29 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-09 21:53:12 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (42.6ms)
+Rendered song/_songdisplay.html.haml (10.6ms)
+Rendered song/_songdisplay.html.haml (11.2ms)
+Rendered song/_songdisplay.html.haml (11.9ms)
+Rendered song/index.html.haml within layouts/application (123.2ms)
+Completed 200 OK in 143ms (Views: 127.6ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-09 21:53:12 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-09 21:53:15 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (7.8ms)
+Completed 200 OK in 26ms (Views: 12.3ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-09 21:53:19 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/6CNlnlcnQ7DMFmloIRR1e3"}}
+Completed 500 Internal Server Error in 47ms
+
+NoMethodError (undefined method `include' for "http://open.spotify.com/track/6CNlnlcnQ7DMFmloIRR1e3":String):
+  app/models/song.rb:50:in `lookup_track_info'
+  app/models/song.rb:19:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+
+
+Started GET "/song/" for 127.0.0.1 at 2011-09-09 21:59:43 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (13.0ms)
+Rendered song/_songdisplay.html.haml (43.7ms)
+Rendered song/_songdisplay.html.haml (11.6ms)
+Rendered song/_songdisplay.html.haml (11.5ms)
+Rendered song/index.html.haml within layouts/application (105.5ms)
+Completed 200 OK in 178ms (Views: 136.3ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-09 21:59:44 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-09 22:02:28 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (10.1ms)
+Completed 200 OK in 64ms (Views: 30.8ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-09 22:02:33 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://google.com"}}
+Completed 500 Internal Server Error in 26ms
+
+NoMethodError (undefined method `include' for "http://google.com":String):
+  app/models/song.rb:50:in `lookup_track_info'
+  app/models/song.rb:19:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.4ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-09 22:03:39 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://google.com"}}
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:135: syntax error, unexpected keyword_end, expecting $end):
+  app/controllers/song_controller.rb:12:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.7ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-09 22:04:00 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://google.com"}}
+Completed 500 Internal Server Error in 13ms
+
+NoMethodError (undefined method `include' for "http://google.com":String):
+  app/models/song.rb:50:in `lookup_track_info'
+  app/models/song.rb:19:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.2ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-09 22:05:01 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://google.com"}}
+Completed 500 Internal Server Error in 12ms
+
+NameError (undefined local variable or method `string' for Song:Class):
+  app/models/song.rb:3:in `<class:Song>'
+  app/models/song.rb:1:in `<top (required)>'
+  app/controllers/song_controller.rb:12:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.4ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-09 22:05:11 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://google.com"}}
+Completed 500 Internal Server Error in 11ms
+
+TypeError (wrong argument type Class (expected Module)):
+  app/models/song.rb:3:in `include'
+  app/models/song.rb:3:in `<class:Song>'
+  app/models/song.rb:1:in `<top (required)>'
+  app/controllers/song_controller.rb:12:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-09 22:05:41 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://google.com"}}
+Completed 500 Internal Server Error in 13ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/models/song.rb:108:in `calculate_spotify_id'
+  app/models/song.rb:23:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-09 22:24:18 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://google.com"}}
+Completed 500 Internal Server Error in 11ms
+
+NameError (uninitialized constant ActiveRecord):
+  app/models/song.rb:1:in `<top (required)>'
+  app/controllers/song_controller.rb:12:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.9ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (37.2ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 00:37:28 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://google.com"}}
+Completed 500 Internal Server Error in 14ms
+
+NoMethodError (undefined method `has_key?' for #<Song:0x007faf496e9308>):
+  app/models/song.rb:110:in `calculate_spotify_id'
+  app/models/song.rb:23:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 00:38:58 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://google.com"}}
+Completed 500 Internal Server Error in 50ms
+
+NoMethodError (undefined method `has_key?' for #<Song:0x007faf4b947670>):
+  app/models/song.rb:110:in `calculate_spotify_id'
+  app/models/song.rb:23:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.5ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.5ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 00:44:11 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://google.com"}}
+Redirected to http://localhost:3000/song
+Completed 302 Found in 922ms
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 00:44:11 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.3ms)
+Rendered song/_songdisplay.html.haml (11.1ms)
+Rendered song/_songdisplay.html.haml (10.8ms)
+Rendered song/_songdisplay.html.haml (10.7ms)
+Rendered song/_songdisplay.html.haml (49.0ms)
+Rendered song/index.html.haml within layouts/application (118.6ms)
+Completed 200 OK in 170ms (Views: 154.8ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-10 00:44:12 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 00:48:51 -0700
+  Processing by SongController#new as HTML
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:137: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:3:in `new'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.3ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 00:49:13 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (7.5ms)
+Completed 200 OK in 49ms (Views: 35.6ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 00:49:15 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/5van3sajMAS5N5Sf9PHvJ6"}}
+Completed 500 Internal Server Error in 14ms
+
+NoMethodError (undefined method `has_key?' for #<Song:0x007faf493a0fe8>):
+  app/models/song.rb:110:in `calculate_spotify_id'
+  app/models/song.rb:23:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (41.6ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (47.6ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 00:49:38 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/5van3sajMAS5N5Sf9PHvJ6"}}
+Redirected to http://localhost:3000/song
+Completed 302 Found in 708ms
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 00:49:39 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (11.8ms)
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/_songdisplay.html.haml (10.7ms)
+Rendered song/_songdisplay.html.haml (10.8ms)
+Rendered song/_songdisplay.html.haml (11.0ms)
+Rendered song/_songdisplay.html.haml (11.1ms)
+Rendered song/index.html.haml within layouts/application (84.1ms)
+Completed 200 OK in 107ms (Views: 90.2ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-10 00:49:39 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (8.8ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 00:50:52 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (7.3ms)
+Completed 200 OK in 24ms (Views: 11.6ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 00:50:54 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/5van3sajMAS5N5Sf9PHvJ6"}}
+Redirected to http://localhost:3000/song
+Completed 302 Found in 686ms
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 00:50:55 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (11.3ms)
+Rendered song/_songdisplay.html.haml (11.1ms)
+Rendered song/_songdisplay.html.haml (10.3ms)
+Rendered song/_songdisplay.html.haml (54.0ms)
+Rendered song/_songdisplay.html.haml (11.8ms)
+Rendered song/_songdisplay.html.haml (11.7ms)
+Rendered song/_songdisplay.html.haml (10.7ms)
+Rendered song/index.html.haml within layouts/application (138.4ms)
+Completed 200 OK in 166ms (Views: 142.7ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-10 00:50:55 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (16.7ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 00:51:21 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (33.6ms)
+Rendered song/index.html.haml within layouts/application (37.7ms)
+Completed 500 Internal Server Error in 60ms
+
+ActionView::Template::Error (undefined local variable or method `artist' for #<#<Class:0x007faf497aaaf8>:0x007faf497a8ff0>):
+    13:     #track_info_button.service_button
+    14:       .button_title Track Info
+    15:     .service_result
+    16:       .results_link.track_info= song.track_info[artist]
+    17:   %div
+    18:     #spotify_button.service_button
+    19:       .button_title Spotify
+  app/views/song/_songdisplay.html.haml:16:in `_app_views_song__songdisplay_html_haml___46789769264428554_70195414332280_3147176958130768348'
+  app/views/song/index.html.haml:5:in `block in _app_views_song_index_html_haml___979044371692513956_70195414384040_315209198703351590'
+  app/views/song/index.html.haml:4:in `each'
+  app/views/song/index.html.haml:4:in `_app_views_song_index_html_haml___979044371692513956_70195414384040_315209198703351590'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.4ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 00:51:39 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.8ms)
+Rendered song/index.html.haml within layouts/application (15.4ms)
+Completed 500 Internal Server Error in 83ms
+
+ActionView::Template::Error (undefined method `artist' for nil:NilClass):
+    13:     #track_info_button.service_button
+    14:       .button_title Track Info
+    15:     .service_result
+    16:       .results_link.track_info= song.track_info.artist
+    17:   %div
+    18:     #spotify_button.service_button
+    19:       .button_title Spotify
+  app/views/song/_songdisplay.html.haml:16:in `_app_views_song__songdisplay_html_haml___46789769264428554_70195433395360_3147176958130768348'
+  app/views/song/index.html.haml:5:in `block in _app_views_song_index_html_haml___979044371692513956_70195433680480_315209198703351590'
+  app/views/song/index.html.haml:4:in `each'
+  app/views/song/index.html.haml:4:in `_app_views_song_index_html_haml___979044371692513956_70195433680480_315209198703351590'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.8ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 00:51:58 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (11.4ms)
+Rendered song/_songdisplay.html.haml (11.7ms)
+Rendered song/_songdisplay.html.haml (11.0ms)
+Rendered song/_songdisplay.html.haml (13.0ms)
+Rendered song/_songdisplay.html.haml (11.0ms)
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/_songdisplay.html.haml (11.5ms)
+Rendered song/index.html.haml within layouts/application (100.1ms)
+Completed 200 OK in 122ms (Views: 104.7ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-10 00:51:58 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 00:52:01 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (8.1ms)
+Completed 200 OK in 25ms (Views: 12.6ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 00:52:06 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/5van3sajMAS5N5Sf9PHvJ6"}}
+Redirected to http://localhost:3000/song
+Completed 302 Found in 515ms
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 00:52:07 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.9ms)
+Rendered song/_songdisplay.html.haml (10.6ms)
+Rendered song/_songdisplay.html.haml (10.3ms)
+Rendered song/_songdisplay.html.haml (10.4ms)
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/_songdisplay.html.haml (11.0ms)
+Rendered song/_songdisplay.html.haml (9.9ms)
+Rendered song/_songdisplay.html.haml (10.8ms)
+Rendered song/index.html.haml within layouts/application (103.6ms)
+Completed 200 OK in 172ms (Views: 108.1ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-10 00:52:07 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (8.1ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 00:53:15 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (7.6ms)
+Completed 200 OK in 30ms (Views: 12.5ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 00:53:15 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (7.6ms)
+Completed 200 OK in 75ms (Views: 12.1ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 00:53:19 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/5van3sajMAS5N5Sf9PHvJ6"}}
+Redirected to http://localhost:3000/song
+Completed 302 Found in 509ms
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 00:53:19 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.6ms)
+Rendered song/_songdisplay.html.haml (11.1ms)
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/_songdisplay.html.haml (11.0ms)
+Rendered song/_songdisplay.html.haml (11.2ms)
+Rendered song/_songdisplay.html.haml (10.4ms)
+Rendered song/_songdisplay.html.haml (10.7ms)
+Rendered song/_songdisplay.html.haml (53.5ms)
+Rendered song/_songdisplay.html.haml (11.3ms)
+Rendered song/index.html.haml within layouts/application (160.6ms)
+Completed 200 OK in 190ms (Views: 165.1ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-10 00:53:19 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 00:57:22 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (7.7ms)
+Completed 200 OK in 25ms (Views: 12.8ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 00:57:26 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/5van3sajMAS5N5Sf9PHvJ6"}}
+Completed 500 Internal Server Error in 15ms
+
+NoMethodError (undefined method `has_key?' for #<Song:0x007faf4acf1678>):
+  app/models/song.rb:112:in `calculate_spotify_id'
+  app/models/song.rb:23:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.9ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 01:01:09 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/5van3sajMAS5N5Sf9PHvJ6"}}
+Redirected to http://localhost:3000/song
+Completed 302 Found in 805ms
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 01:01:09 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.3ms)
+Rendered song/_songdisplay.html.haml (11.6ms)
+Rendered song/_songdisplay.html.haml (11.6ms)
+Rendered song/_songdisplay.html.haml (11.3ms)
+Rendered song/_songdisplay.html.haml (11.2ms)
+Rendered song/_songdisplay.html.haml (11.0ms)
+Rendered song/_songdisplay.html.haml (11.0ms)
+Rendered song/_songdisplay.html.haml (11.0ms)
+Rendered song/_songdisplay.html.haml (10.8ms)
+Rendered song/_songdisplay.html.haml (11.9ms)
+Rendered song/index.html.haml within layouts/application (132.9ms)
+Completed 200 OK in 157ms (Views: 137.3ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-10 01:01:10 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 01:01:40 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (8.3ms)
+Completed 200 OK in 28ms (Views: 13.4ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 01:01:44 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/5van3sajMAS5N5Sf9PHvJ6"}}
+Completed 500 Internal Server Error in 395ms
+
+NoMethodError (undefined method `has_key?' for #<Song:0x007faf4bab1c18>):
+  app/models/song.rb:101:in `spotify_lookup'
+  app/models/song.rb:63:in `lookup_track_info'
+  app/models/song.rb:19:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 01:12:10 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (44.9ms)
+Completed 200 OK in 62ms (Views: 49.3ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 01:12:13 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/5van3sajMAS5N5Sf9PHvJ6"}}
+Completed 500 Internal Server Error in 343ms
+
+NameError (undefined local variable or method `track' for #<Song:0x007faf4bbfbba0>):
+  app/models/song.rb:101:in `spotify_lookup'
+  app/models/song.rb:63:in `lookup_track_info'
+  app/models/song.rb:19:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 01:13:41 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/5van3sajMAS5N5Sf9PHvJ6"}}
+Completed 500 Internal Server Error in 551ms
+
+NoMethodError (undefined method `has_key?' for "{\"artist\"=>\"Thrice\", \"track\"=>\"Deadbolt\"}":String):
+  app/models/song.rb:113:in `calculate_spotify_id'
+  app/models/song.rb:23:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 01:14:45 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/5van3sajMAS5N5Sf9PHvJ6"}}
+Completed 500 Internal Server Error in 381ms
+
+NameError (undefined local variable or method `middle_concat' for #<Song:0x007faf4be9ca30>):
+  app/models/song.rb:34:in `create_query'
+  app/models/song.rb:116:in `calculate_spotify_id'
+  app/models/song.rb:23:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.7ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 01:15:18 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/5van3sajMAS5N5Sf9PHvJ6"}}
+Redirected to http://localhost:3000/song
+Completed 302 Found in 861ms
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 01:15:19 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (12.9ms)
+Rendered song/_songdisplay.html.haml (11.5ms)
+Rendered song/_songdisplay.html.haml (10.9ms)
+Rendered song/_songdisplay.html.haml (11.1ms)
+Rendered song/_songdisplay.html.haml (11.2ms)
+Rendered song/_songdisplay.html.haml (54.6ms)
+Rendered song/_songdisplay.html.haml (11.5ms)
+Rendered song/_songdisplay.html.haml (10.9ms)
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/_songdisplay.html.haml (11.0ms)
+Rendered song/_songdisplay.html.haml (11.6ms)
+Rendered song/index.html.haml within layouts/application (191.2ms)
+Completed 200 OK in 217ms (Views: 196.2ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-10 01:15:19 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 01:16:02 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (8.9ms)
+Completed 200 OK in 27ms (Views: 13.7ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 01:16:04 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/4aX4Oycsk1fhHIee1zqsDe"}}
+Completed 500 Internal Server Error in 401ms
+
+URI::InvalidURIError (bad URI(is not URI?): http://ws.spotify.com/search/1/track.json?q=Lil+Wayne+How+To Love):
+  app/models/song.rb:124:in `calculate_spotify_id'
+  app/models/song.rb:23:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (53.5ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (59.1ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 01:21:15 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://open.spotify.com/track/4aX4Oycsk1fhHIee1zqsDe"}}
+Redirected to http://localhost:3000/song
+Completed 302 Found in 1425ms
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 01:21:16 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.6ms)
+Rendered song/_songdisplay.html.haml (10.4ms)
+Rendered song/_songdisplay.html.haml (10.6ms)
+Rendered song/_songdisplay.html.haml (10.8ms)
+Rendered song/_songdisplay.html.haml (10.4ms)
+Rendered song/_songdisplay.html.haml (10.4ms)
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/_songdisplay.html.haml (9.8ms)
+Rendered song/_songdisplay.html.haml (10.4ms)
+Rendered song/_songdisplay.html.haml (10.3ms)
+Rendered song/_songdisplay.html.haml (9.9ms)
+Rendered song/index.html.haml within layouts/application (187.6ms)
+Completed 200 OK in 211ms (Views: 191.9ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-10 01:21:16 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)

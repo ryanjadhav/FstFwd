@@ -2,6 +2,9 @@ require 'rubygems'
 require 'bundler'
 require 'mongo'
 
+# For api calls
+require 'net/http' 
+
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.9'

@@ -1,0 +1,41 @@
+.song
+  %div
+    #original_url_button.service_button
+      .button_title Original URL
+    .service_result
+      .results_link.original_url= song.orig_url
+  %div
+    #fstfwd_id_button.service_button
+      .button_title FstFwd ID
+    .service_result
+      .results_link.fstfwd_url= song.fstfwd_id
+  %div
+    #track_info_button.service_button
+      .button_title Track Info
+    .service_result
+      .results_link.track_info= song.track_info
+  %div
+    #spotify_button.service_button
+      .button_title Spotify
+    .service_result
+      .results_link.spotify_url= 'http://open.spotify.com/track/' + song.spotify_id
+  %div
+    #rdio_button.service_button
+      .button_title Rdio
+    .service_result
+      .results_link.rdio_url= song.rdio_id
+  %div
+    #grooveshark_button.service_button
+      .button_title Grooveshark
+    .service_result
+      .results_link.grooveshark_url= song.grooveshark_id
+  %div
+    #last_fm_button.service_button
+      .button_title Last.FM
+    .service_result
+      .results_link.last_fm_url= song.lastfm_id
+  %div
+    #youtube_button.service_button
+      .button_title Youtube
+    .service_result
+      .results_link.youtube_url= song.youtube_id

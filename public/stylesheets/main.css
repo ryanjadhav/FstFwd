@@ -42,3 +42,7 @@ div.song {
 #youtube_button {
     background-color: SpringGreen;
 }
+
+#track_info_button{
+	background-color: gray;
+}

@@ -1,0 +1,7 @@
+= stylesheet_link_tag 'sass/main'
+%h3 All songs
+%div
+  - @songs.each do |song|
+    = render :partial => "songdisplay", :locals => { :song => song }
+    %br/
+%p= link_to 'Create', {:controller => 'song', :action => 'new' }

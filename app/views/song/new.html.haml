@@ -1,0 +1,8 @@
+%h3 Add a new song
+= form_tag '/song/create' do
+  %fieldset
+    %p
+      %label Song Url:
+      %input{:name => "song[orig_url]", :value => @song.orig_url}/
+    %p
+      %input{:type => "submit", :value => "Submit"}/
