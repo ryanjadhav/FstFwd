@@ -2093,3 +2093,117 @@ ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
   
 
 Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 01:30:41 -0700
+  Processing by SongController#new as HTML
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (/Users/ryan/Sites/FstFwd/app/models/song.rb:147: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/song_controller.rb:3:in `new'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.9ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 01:32:25 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (8.7ms)
+Completed 200 OK in 75ms (Views: 14.3ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 01:33:31 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://www.last.fm/music/Lil+Wayne/_/How+To+Love "}}
+Redirected to http://localhost:3000/song
+Completed 302 Found in 3869ms
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 01:33:35 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/_songdisplay.html.haml (10.6ms)
+Rendered song/_songdisplay.html.haml (10.0ms)
+Rendered song/_songdisplay.html.haml (48.8ms)
+Rendered song/_songdisplay.html.haml (10.0ms)
+Rendered song/_songdisplay.html.haml (10.0ms)
+Rendered song/_songdisplay.html.haml (10.0ms)
+Rendered song/_songdisplay.html.haml (10.0ms)
+Rendered song/_songdisplay.html.haml (10.1ms)
+Rendered song/_songdisplay.html.haml (10.2ms)
+Rendered song/_songdisplay.html.haml (9.9ms)
+Rendered song/_songdisplay.html.haml (9.9ms)
+Rendered song/_songdisplay.html.haml (9.8ms)
+Rendered song/index.html.haml within layouts/application (195.0ms)
+Completed 200 OK in 218ms (Views: 200.1ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-10 01:33:35 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 01:38:13 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 27ms (Views: 13.3ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-10 01:38:32 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (7.8ms)
+Completed 200 OK in 25ms (Views: 12.3ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 01:38:34 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://www.last.fm/music/Lil+Wayne/_/How+To+Love"}}
+Completed 500 Internal Server Error in 2169ms
+
+NameError (undefined local variable or method `results' for #<Song:0x007faf4bb1d760>):
+  app/models/song.rb:149:in `calculate_lastfm_id'
+  app/models/song.rb:24:in `calculate_services'
+  app/controllers/song_controller.rb:13:in `create'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+
+
+Started POST "/song/create" for 127.0.0.1 at 2011-09-10 01:39:41 -0700
+  Processing by SongController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hbuFgsyxuWPSlCBYRvcodTtwLToY87ZmWagsisPp2mk=", "song"=>{"orig_url"=>"http://www.last.fm/music/Lil+Wayne/_/How+To+Love"}}
+Redirected to http://localhost:3000/song
+Completed 302 Found in 1437ms
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-10 01:39:43 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/_songdisplay.html.haml (10.3ms)
+Rendered song/_songdisplay.html.haml (11.5ms)
+Rendered song/_songdisplay.html.haml (11.0ms)
+Rendered song/_songdisplay.html.haml (11.0ms)
+Rendered song/_songdisplay.html.haml (10.3ms)
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/_songdisplay.html.haml (10.8ms)
+Rendered song/_songdisplay.html.haml (10.5ms)
+Rendered song/_songdisplay.html.haml (53.9ms)
+Rendered song/_songdisplay.html.haml (10.1ms)
+Rendered song/_songdisplay.html.haml (11.3ms)
+Rendered song/_songdisplay.html.haml (10.9ms)
+Rendered song/_songdisplay.html.haml (10.9ms)
+Rendered song/index.html.haml within layouts/application (220.7ms)
+Completed 200 OK in 245ms (Views: 226.1ms)
+
+
+Started GET "/stylesheets/sass/main.css" for 127.0.0.1 at 2011-09-10 01:39:43 -0700
+
+ActionController::RoutingError (No route matches "/stylesheets/sass/main.css"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)

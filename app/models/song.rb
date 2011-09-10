@@ -21,7 +21,7 @@ class Song
     self.rdio_id = calculate_rdio_id
     self.youtube_id = calculate_youtube_id
     self.spotify_id = calculate_spotify_id(track_info)
-    self.lastfm_id = calculate_lastfm_id
+    self.lastfm_id = calculate_lastfm_id(track_info)
   end
 
   def calculate_fstfwd_id
@@ -61,8 +61,9 @@ class Song
  		if split_url[0] == 'open.spotify.com'
  			puts 'spotify lookup'
 			track_info = spotify_lookup(split_url[2])
-# 		else if split_url[0] == 'www.last.fm' || split_url[0] == 'last.fm'
-# 			print 'lastfm lookup'
+ 		elsif split_url[0] == 'www.last.fm' || split_url[0] == 'last.fm'
+ 			puts 'lastfm lookup'
+ 			track_info = last_fm_lookup(split_url[2], split_url[4])
 # 		else if split_url[0] == 'www.grooveshark.com' || split_url[0] == 'grooveshark.com'
 # 			print 'grooveshark lookup'
 # 		else if split_url[0] == 'rd.io'
@@ -108,9 +109,7 @@ class Song
 		return track_info 
   end
 
-  def calculate_spotify_id(track_info)
-  	puts track_info.inspect
-  
+  def calculate_spotify_id(track_info)  
   	# Prep a query
   	if track_info.has_key?('artist')
   		query = create_query(track_info['artist'], track_info['track'])
@@ -134,9 +133,22 @@ class Song
 		
 		return spotify_id
   end
+  
+  def last_fm_lookup(artist, track)
+  	return Hash['artist', artist, 'track', track]
+  end
 
-  def calculate_lastfm_id
-    # Use the lastfm api
-    'last.fm'
+  def calculate_lastfm_id(track_info)
+    # Call the lastfm api
+		url = 'http://ws.audioscrobbler.com/2.0/?method=track.getinfo&format=json&api_key=0cc6c91b6bf535eddc5fd9526eec1bb6&artist=' + track_info['artist'] + '&track=' + track_info['track']
+		resp = Net::HTTP.get_response(URI.parse(url))
+		data = resp.body
+		result = JSON.parse(data)
+
+		if result.has_key?('track')
+			last_fm_url = result['track']['url']
+		end
+		
+		return last_fm_url	
   end
 end
