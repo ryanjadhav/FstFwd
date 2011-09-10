@@ -17,13 +17,14 @@ class Song
   def calculate_services
     self.fstfwd_id = calculate_fstfwd_id
     self.track_info = lookup_track_info(orig_url)  
-    self.grooveshark_id = calculate_grooveshark_id
+    self.grooveshark_id = calculate_grooveshark_id(track_info)
     self.rdio_id = calculate_rdio_id
     self.youtube_id = calculate_youtube_id
     self.spotify_id = calculate_spotify_id(track_info)
     self.lastfm_id = calculate_lastfm_id(track_info)
   end
 
+	# Return a FstFwd Id
   def calculate_fstfwd_id
     # Internal id for fstfwd
     self._id
@@ -64,10 +65,10 @@ class Song
  		elsif split_url[0] == 'www.last.fm' || split_url[0] == 'last.fm'
  			puts 'lastfm lookup'
  			track_info = last_fm_lookup(split_url[2], split_url[4])
-# 		else if split_url[0] == 'www.grooveshark.com' || split_url[0] == 'grooveshark.com'
-# 			print 'grooveshark lookup'
-# 		else if split_url[0] == 'rd.io'
-# 			print 'rdio lookup'
+		elsif split_url[0] == 'www.grooveshark.com' || split_url[0] == 'grooveshark.com'
+			track_info = grooveshark_lookup('', splitUrl[3])			
+		elsif split_url[0] == 'rd.io'
+			print 'rdio lookup'
 		else
 			# Return an empty track_info hash
 			puts 'non-valid url'
@@ -75,11 +76,29 @@ class Song
 		
 		return track_info
   end
-
-  def calculate_grooveshark_id
-    # Use the grooveshark api
-    'grooveshark'
+  
+  def grooveshark_lookup(artist, track)
+  	return Hash['artist', artist, 'track', track]
   end
+
+  def calculate_grooveshark_id(track_info)
+    # Prep a query
+  	if track_info.has_key?('artist')
+  		query = create_query(track_info['artist'], track_info['track'])
+    end
+  	
+    # Use the grooveshark/tinysong api
+		url = 'http://tinysong.com/a/'+ query +'?format=json&key=b4385955bd9dd410287d0b3c7ffee5c8'  
+		resp = Net::HTTP.get_response(URI.parse(url)) 
+		data = resp.body
+
+		data = data.gsub(/"/, '')
+		data = data.gsub(/\\/, '')
+
+		grooveshark_id = data
+		
+		return grooveshark_id
+	end
 
   def calculate_rdio_id
     # Use rdio api
@@ -87,12 +106,12 @@ class Song
   end
 
   def calculate_youtube_id
-		#Use youtube api
+		# Use youtube api
 		'youtube'
   end
   
   def spotify_lookup(spotify_uri)
-  	# #Call spotify metadata api
+  	# Call spotify metadata api
     url = 'http://ws.spotify.com/lookup/1/.json?uri=spotify:track:' + spotify_uri
 		resp = Net::HTTP.get_response(URI.parse(url)) 
 		data = resp.body
@@ -113,9 +132,6 @@ class Song
   	# Prep a query
   	if track_info.has_key?('artist')
   		query = create_query(track_info['artist'], track_info['track'])
-  	else
-  		# We're defaulting to this for now
-  		query = "Thrice+Deadbolt"
     end
   	
     # Call spotify metadata api
@@ -139,16 +155,21 @@ class Song
   end
 
   def calculate_lastfm_id(track_info)
-    # Call the lastfm api
-		url = 'http://ws.audioscrobbler.com/2.0/?method=track.getinfo&format=json&api_key=0cc6c91b6bf535eddc5fd9526eec1bb6&artist=' + track_info['artist'] + '&track=' + track_info['track']
+  	artist = track_info['artist'].gsub(/\s/, '+')
+  	track = track_info['track'].gsub(/\s/, '+')
+
+    # Call the Last FM api
+		url = 'http://ws.audioscrobbler.com/2.0/?method=track.getinfo&format=json&api_key=0cc6c91b6bf535eddc5fd9526eec1bb6&artist=' + artist + '&track=' + track
 		resp = Net::HTTP.get_response(URI.parse(url))
 		data = resp.body
 		result = JSON.parse(data)
 
 		if result.has_key?('track')
-			last_fm_url = result['track']['url']
+			last_fm_id = result['track']['url']
+		else
+			last_fm_id = 0
 		end
 		
-		return last_fm_url	
+		return last_fm_id	
   end
 end
