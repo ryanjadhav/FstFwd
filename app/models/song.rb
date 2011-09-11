@@ -14,7 +14,7 @@ class Song
 
   private
 
-  def calculate_services
+  def calculate_services  
     self.fstfwd_id = calculate_fstfwd_id
     self.track_info = lookup_track_info(orig_url)  
     self.grooveshark_id = calculate_grooveshark_id(track_info)

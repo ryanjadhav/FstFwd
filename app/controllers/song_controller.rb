@@ -21,4 +21,7 @@ class SongController < ApplicationController
     		@song = Song.find(params[:id])
 				puts @song.id
     end
+    
+    # Move the lookup call here
+    # If no track_info then flash
 end
