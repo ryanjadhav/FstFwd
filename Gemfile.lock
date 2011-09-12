@@ -41,6 +41,7 @@ GEM
     fssm (0.2.7)
     haml (3.1.3)
     i18n (0.5.0)
+    json (1.5.4)
     mail (2.2.19)
       activesupport (>= 2.3.6)
       i18n (>= 0.4.0)
@@ -77,7 +78,7 @@ GEM
       rdoc (~> 3.4)
       thor (~> 0.14.4)
     rake (0.9.2)
-    rdio (0.0.91)
+    rdio (0.0.96)
       oauth (>= 0.3.0)
     rdoc (3.9.4)
     sass (3.1.7)
@@ -93,7 +94,8 @@ PLATFORMS
 DEPENDENCIES
   compass (>= 0.11.5)
   haml
+  json
   mongo_mapper
   rails (= 3.0.9)
-  rdio (= 0.0.91)
+  rdio (= 0.0.96)
   sass

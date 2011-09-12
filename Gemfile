@@ -13,6 +13,7 @@ gem 'haml'
 gem 'sass'
 gem "compass", ">= 0.11.5"
 gem 'rdio', '0.0.96'
+gem 'json'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
