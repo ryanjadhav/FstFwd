@@ -4996,3 +4996,187 @@ Started GET "/song/new" for 127.0.0.1 at 2011-09-11 14:12:48 -0700
   Processing by SongController#new as HTML
 Rendered song/new.html.haml within layouts/application (10.2ms)
 Completed 200 OK in 85ms (Views: 32.5ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-11 16:48:18 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (22.3ms)
+Rendered song/_songdisplay.html.haml (27.8ms)
+Rendered song/_songdisplay.html.haml (22.3ms)
+Rendered song/_songdisplay.html.haml (41.6ms)
+Rendered song/_songdisplay.html.haml (23.0ms)
+Rendered song/_songdisplay.html.haml (18.3ms)
+Rendered song/_songdisplay.html.haml (13.4ms)
+Rendered song/_songdisplay.html.haml (11.8ms)
+Rendered song/_songdisplay.html.haml (14.1ms)
+Rendered song/_songdisplay.html.haml (12.4ms)
+Rendered song/_songdisplay.html.haml (11.8ms)
+Rendered song/_songdisplay.html.haml (11.5ms)
+Rendered song/_songdisplay.html.haml (12.6ms)
+Rendered song/_songdisplay.html.haml (119.8ms)
+Rendered song/_songdisplay.html.haml (41.0ms)
+Rendered song/index.html.haml within layouts/application (489.5ms)
+Completed 200 OK in 740ms (Views: 513.8ms)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-11 16:48:19 -0700
+  Processing by SongController#index as HTML
+Rendered song/_songdisplay.html.haml (10.7ms)
+Rendered song/_songdisplay.html.haml (11.7ms)
+Rendered song/_songdisplay.html.haml (11.1ms)
+Rendered song/_songdisplay.html.haml (11.3ms)
+Rendered song/_songdisplay.html.haml (11.5ms)
+Rendered song/_songdisplay.html.haml (10.7ms)
+Rendered song/_songdisplay.html.haml (11.2ms)
+Rendered song/_songdisplay.html.haml (11.4ms)
+Rendered song/_songdisplay.html.haml (61.9ms)
+Rendered song/_songdisplay.html.haml (14.9ms)
+Rendered song/_songdisplay.html.haml (10.4ms)
+Rendered song/_songdisplay.html.haml (14.9ms)
+Rendered song/_songdisplay.html.haml (11.0ms)
+Rendered song/_songdisplay.html.haml (11.8ms)
+Rendered song/_songdisplay.html.haml (11.4ms)
+Rendered song/index.html.haml within layouts/application (260.1ms)
+Completed 200 OK in 297ms (Views: 264.3ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/ryan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-11 21:51:54 -0700
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-11 21:51:55 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (12.3ms)
+Completed 200 OK in 615ms (Views: 53.6ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from service at /Users/ryan/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111)
+
+
+Started GET "/song" for 127.0.0.1 at 2011-09-11 22:36:22 -0700
+  Processing by SongController#index as HTML
+Completed 500 Internal Server Error in 762ms
+
+Mongo::ConnectionFailure (Failed to connect to a master node at localhost:27017):
+  app/controllers/song_controller.rb:8:in `index'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-09-11 22:36:24 -0700
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-11 22:36:24 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (12.7ms)
+Completed 200 OK in 37ms (Views: 19.8ms)
+
+
+Started GET "/javascripts/prototype.js" for 127.0.0.1 at 2011-09-11 22:36:24 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/prototype.js"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/javascripts/effects.js" for 127.0.0.1 at 2011-09-11 22:36:24 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/effects.js"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
+
+
+Started GET "/javascripts/dragdrop.js" for 127.0.0.1 at 2011-09-11 22:36:24 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/dragdrop.js"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/javascripts/controls.js" for 127.0.0.1 at 2011-09-11 22:36:24 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/javascripts/rails.js" for 127.0.0.1 at 2011-09-11 22:36:24 -0700
+
+ActionController::RoutingError (No route matches "/javascripts/rails.js"):
+  
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-11 22:39:44 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (8.8ms)
+Completed 200 OK in 31ms (Views: 13.9ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-11 22:48:46 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (10.2ms)
+Completed 200 OK in 67ms (Views: 24.7ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-11 22:49:56 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (No expansion found for :app):
+    8:     /[if IE]
+    9:     = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
+    10:     = stylesheet_link_tag 'main.css'
+    11:     = javascript_include_tag :app
+    12:     = csrf_meta_tag
+    13: 
+    14:   %body
+  app/views/layouts/application.html.haml:11:in `_app_views_layouts_application_html_haml___3711765278429615995_70353656713420_660322996562686787'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.7ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-11 22:50:44 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (17.7ms)
+Completed 500 Internal Server Error in 52ms
+
+ActionView::Template::Error (undefined method `include_javascripts' for #<#<Class:0x007ff8fb2411d8>:0x007ff8fb23be18>):
+    8:     /[if IE]
+    9:     = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
+    10:     = stylesheet_link_tag 'main.css'
+    11:     = include_javascripts :app
+    12:     = csrf_meta_tag
+    13: 
+    14:   %body
+  app/views/layouts/application.html.haml:11:in `_app_views_layouts_application_html_haml___3711765278429615995_70353671009960_660322996562686787'
+
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /Users/ryan/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.0.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.8ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-11 22:50:57 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (37.4ms)
+Completed 200 OK in 76ms (Views: 56.0ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-11 22:51:35 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (19.9ms)
+Completed 200 OK in 48ms (Views: 30.5ms)
+
+
+Started GET "/song/new" for 127.0.0.1 at 2011-09-11 23:45:09 -0700
+  Processing by SongController#new as HTML
+Rendered song/new.html.haml within layouts/application (10.1ms)
+Completed 200 OK in 98ms (Views: 40.3ms)

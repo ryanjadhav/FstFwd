@@ -1,6 +1,6 @@
-%h3 All songs
-%div
-  - @songs.each do |song|
-    = render :partial => "songdisplay", :locals => { :song => song }
-    %br/
-%p= link_to 'Create', {:controller => 'song', :action => 'new' }
+%h1 FstFwd
+= form_tag '/song/create' do
+  %fieldset
+    .input_url
+      %input.url_input{:name => "song[orig_url]", :placeholder => "Song URL", :value => @song.orig_url}/
+      %input.submit_input{:type => "submit", :value => "Search"}/

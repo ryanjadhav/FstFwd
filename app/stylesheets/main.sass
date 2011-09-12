@@ -1,0 +1,104 @@
+@import compass
+@import compass/css3
+
+/* Colors */
+$blue: #3C5A76
+$black: #000000
+$white: #FFFFFF
+$red: #7c3637
+$tan: #EBC79E
+
+/* Mixins */
+@mixin inputs($h)
+	height: $h
+	padding: 10px
+	font-size: 24px
+	border-radius: 10px
+	border: 5px solid $black
+	box-shadow: inset 0px 0px 5px $black
+
+body
+	font-family: 'Lucida Grande', Arial, san-serif
+	background: url('../images/bg_2.png') repeat
+	color: $white
+
+h1
+	font-size: 150px
+	font-family: 'Aldrich', sans-serif
+	font-variant: small-caps
+	text-shadow: 10px 10px 10px $black
+	text-align: center
+	
+.container
+	background: url('../images/status_bg_2.png') no-repeat center
+	height: 700px
+
+.content
+	width: 900px
+	margin: 0 auto
+	padding: 200px 0 0 0 
+	+transition-duration(2s)
+	+transition-timing-function(ease-in)
+	
+.input_url
+	margin: 50px 0
+	text-align: center
+
+.url_input
+	@include inputs(50px)
+	width: 600px
+	+background-image(linear-gradient(#F2F2F2 10%, #FAFAFA 50%))
+
+.submit_input
+	@include inputs(80px)
+	width: 125px
+	color: $white
+	+background-image(linear-gradient(top, #26CF0C 45%, #46E32D 73%, #5BEB71 87%))
+
+.submit_input:hover
+	+background-image(linear-gradient(top, #26CF0C 65%, #46E32D 93%, #5BEB71 97%))
+
+.submit_input:active
+	box-shadow: inset 0px 0px 10px $black
+	
+.service_button, .service_result
+	display: inline-block
+	clear: both
+
+.service_button
+	padding: 5px
+	margin-top: 5px
+
+.song_display
+	border: 5px solid black
+	border-radius: 5px
+	padding: 10px
+	background-color: $white
+	/* +background-image(linear-gradient(left, #e6d2a1 51%, #f5e8b6 76%)) */
+
+#original_url_button
+	background-color: red
+
+#fstfwd_id_button
+	background-color: blue
+
+#spotify_button
+	background-color: green
+
+#rdio_button
+	background-color: orange
+
+#grooveshark_button
+	background-color: purple
+
+#last_fm_button
+	background-color: yellow
+
+#youtube_button
+	background-color: SpringGreen
+
+#track_info_button
+	background-color: purple
+	
+.results_link
+	color: $black
