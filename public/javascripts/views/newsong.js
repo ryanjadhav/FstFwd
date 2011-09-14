@@ -3,13 +3,13 @@ App.Views.NewSong = Backbone.View.extend({
 		"submit form" : "save"
 	},
 	
-	initalize: function(){
+	initialize: function(){
 		this.render();
 	},
 	
 	save: function(){
 		var self = this;
-		var msg = this.model.isNew() ? 'Successfully created!' : 'Saved!';
+		var msg = 'Successfully created!';
 		
 		this.model.save({ orig_url: this.$('.url_input').val() }, {
 			success: function(model, resp){

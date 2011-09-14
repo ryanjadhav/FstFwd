@@ -2,9 +2,7 @@ Fstfwd::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
   
- 	resources :songs, :only => [:show, :new, :create, :index] 
-
-  root :to => redirect('/song/new')  
+ 	resources :songs 
 
   match ':controller(/:action(/:id(.:format)))'
   # Sample of regular route:
@@ -53,7 +51,7 @@ Fstfwd::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => "welcome#index"
+  root :to => "song#index"
 
   # See how all your routes lay out with "rake routes"
 

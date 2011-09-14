@@ -1,7 +1,5 @@
-%h1 FstFwd - not used
-= form_tag '/song/create' do
-  %fieldset
-    .input_url
-      %input.url_input{:name => "song[orig_url]", :placeholder => "Song URL", :value => @song.orig_url}/
-      %input.submit_input{:type => "submit", :value => "Search"}/
-
+%h1 FstFwd
+:javascript 
+  $(function() {
+  	App.init();
+  });

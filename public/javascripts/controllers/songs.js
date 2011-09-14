@@ -1,6 +1,6 @@
 App.Controllers.Songs = Backbone.Controller.extend({
 	routes: {
-		"/:id":	"show",
+		"song/:id":	"show",
 		"": "newSong"
 	},
 	
