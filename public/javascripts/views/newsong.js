@@ -1,4 +1,4 @@
-App.Views.NewSong = Backbone.extend({
+App.Views.NewSong = Backbone.View.extend({
 	events: {
 		"submit form" : "save"
 	},
