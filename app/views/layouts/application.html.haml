@@ -8,9 +8,9 @@
     /[if IE]
     = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
     = stylesheet_link_tag 'main.css'
-    = javascript_include_tag "json2", "jquery", "underscore", "backbone"
+    = javascript_include_tag "json2", "jquery", "underscore", "backbone", "application"
     = csrf_meta_tag
   %body
   .container
-    .content
+    .contents
       = yield
