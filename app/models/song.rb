@@ -56,20 +56,20 @@ class Song
     # Handle the look up call
     def lookup_track_info(orig_url)
         uri = URI.parse(orig_url)
-
+        
         split_url = uri.path.split('/')
 
         puts uri.host
-
+        
         track_info = Hash.new();
 
         #This needs to be better, include only track urls of specific services
         if uri.host == 'open.spotify.com'
             puts 'spotify lookup'
-            track_info = spotify_lookup(split_url[0])
+            track_info = spotify_lookup(split_url[2])
         elsif uri.host.ends_with? 'last.fm'
             puts 'lastfm lookup'
-            track_info = last_fm_lookup(split_url[0], split_url[2])
+            track_info = last_fm_lookup(split_url[2], split_url[4])
         elsif uri.host.ends_with? 'grooveshark.com'
             track_info = grooveshark_lookup('', split_url[2])
         elsif uri.host == 'rd.io'
