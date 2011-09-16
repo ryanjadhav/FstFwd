@@ -4,6 +4,7 @@ App.Views.NewSong = Backbone.View.extend({
 	},
 	
 	initialize: function(){
+		console.log('Init NewSong');
 		this.render();
 	},
 	
@@ -30,13 +31,14 @@ App.Views.NewSong = Backbone.View.extend({
 	},
 	
 	render: function(){
-		var out = '<form>';
+		this.el = document.createElement('form');
+		
+		var out = "<div class='input_url'>";
 		out += "<input type='text' class='url_input' placeholder='Song URL'/>";
-		
 		out += '<input class="submit_input" type="submit" value="Search">';
-		out += '</form>';
-		
+		out += "</div>";
+				
 		$(this.el).html(out);
-		$('.contents').html(this.el);
+		$('.contents').append(this.el);
 	}
 });

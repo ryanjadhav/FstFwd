@@ -1,6 +1,5 @@
 App.Views.Show = Backbone.View.extend({
 	initialize: function(){
-		console.log('render');
 		this.song = this.options.song;
 		this.render();
 	},

@@ -13,7 +13,14 @@ class Song
     key :lastfm_id, String
     key :track_info, Hash
 
-    after_validation :calculate_services
+#		after_validation :calculate_services
+    
+    def to_json(options = {})
+    	puts 'opts:'
+			puts options.inspect
+
+    	super(options.merge(:only => [ :id, :created_at, :orig_url, :fstfwd_id, :spotify_id, :grooveshark_id, :lastfm_id, :rdio_id, :youtube_id, :track_info]))
+    end
 
     private
 
