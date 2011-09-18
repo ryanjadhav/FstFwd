@@ -39,6 +39,11 @@ class SongController < ApplicationController
     render :json => song
   end
   
+  def new
+    song = Song.create! params
+    render :json => song
+  end
+  
   def update
     song = Song.find(params[:id])
     song.update_attributes! params
